@@ -21,9 +21,9 @@ Now it's just a glimpse away — always sitting at the top of your screen.
 A tiny macOS menu bar app that shows your Claude API usage at a glance. Click it for the full picture:
 
 - Menu bar icon with a mini dual-bar showing 5-hour and 7-day utilization
-- Detailed popover with per-window usage, reset timers, and per-model breakdown (Opus / Sonnet)
+- Detailed popover with per-window usage and reset timers
 - Usage history chart — see how your usage evolves over time (1h / 6h / 1d / 7d / 30d)
-- Extra usage tracking for credit spend if enabled on your account
+- Hover over the chart to see exact values at any point
 - Just sign in — OAuth via browser, no API keys to manage
 - Zero dependencies — pure SwiftUI, Swift Charts, and Foundation
 
@@ -55,9 +55,7 @@ make install        # copy to /Applications
 
 Click the icon anytime to see:
 - 5-hour and 7-day usage with progress bars and reset timers
-- Per-model breakdown (Opus / Sonnet) when available
-- Extra usage credit spend
-- Usage history chart with adjustable time range
+- Usage history chart with adjustable time range and hover details
 
 ## Data storage
 
